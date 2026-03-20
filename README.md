@@ -1,4 +1,4 @@
-<img width="704" height="750" alt="image" src="https://github.com/user-attachments/assets/3a7ae734-c33a-4cfe-96d8-0b9223211b8b" /># SaaS Cost Analysis Assistant
+# SaaS Cost Analysis Assistant
 
 ## Overview
 This project implements a multi-agent AI workflow using LangGraph to analyze SaaS subscription costs.
