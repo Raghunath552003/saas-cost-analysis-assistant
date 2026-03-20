@@ -1,0 +1,11 @@
+name,description,team,billing_period,price,currency
+Vercel Pro,Hosting platform,Engineering,monthly,20,USD
+Notion,Workspace tool,Marketing,yearly,120,INR
+Figma,Design tool,Design,quarterly,15,AED
+AWS,Cloud infrastructure,Engineering,monthly,200,USD
+Slack,Team communication,HR,yearly,240,INR
+Zoom,Video meetings,HR,monthly,15,USD
+GitHub,Code hosting,Engineering,monthly,25,USD
+Jira,Project management,Engineering,quarterly,90,AED
+HubSpot,Marketing automation,Marketing,yearly,300,USD
+Google Workspace,Email and collaboration,Operations,monthly,12,INR
