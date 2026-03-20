@@ -1,4 +1,4 @@
-# SaaS Cost Analysis Assistant
+<img width="704" height="750" alt="image" src="https://github.com/user-attachments/assets/3a7ae734-c33a-4cfe-96d8-0b9223211b8b" /># SaaS Cost Analysis Assistant
 
 ## Overview
 This project implements a multi-agent AI workflow using LangGraph to analyze SaaS subscription costs.
@@ -16,6 +16,15 @@ This project implements a multi-agent AI workflow using LangGraph to analyze Saa
 - Cost Analysis Agent
 - Safety Agent
 
+## Workflow
+- CSV Agent → Cost Analysis Agent → Safety Agent → Final JSON Output
+
+## Tools
+- parse_csv_tool: Reads CSV file into structured rows (used by CSV Agent)
+- normalize_billing_period_tool: Standardizes billing periods (used by CSV Agent)
+- convert_currency_tool: Converts prices to base currency (used by Cost Agent)
+- compute_monthly_cost_tool: Converts billing period to monthly cost (used by Cost Agent)
+  
 ## Design Decisions
 - Used LangGraph to structure multi-agent workflow
 - Used simple Python functions as tools for clarity
@@ -30,6 +39,10 @@ This project implements a multi-agent AI workflow using LangGraph to analyze Saa
 - Does not handle large-scale datasets
 - No UI or API interface
 - Currency conversion is approximate
+
+## Test Scenarios
+- CSV with mixed billing periods and currencies
+- CSV with invalid or missing data (to generate warnings)
 
 ## How to Run
 ```bash
