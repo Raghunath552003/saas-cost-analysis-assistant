@@ -16,6 +16,21 @@ This project implements a multi-agent AI workflow using LangGraph to analyze Saa
 - Cost Analysis Agent
 - Safety Agent
 
+## Design Decisions
+- Used LangGraph to structure multi-agent workflow
+- Used simple Python functions as tools for clarity
+- Chose fixed exchange rates for simplicity
+
+## Trade-offs
+- Exchange rates are static (not real-time)
+- Limited error handling for edge cases
+- No database integration
+
+## Limitations
+- Does not handle large-scale datasets
+- No UI or API interface
+- Currency conversion is approximate
+
 ## How to Run
 ```bash
 python main.py
